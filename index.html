@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>    
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+<title>포트폴리오 모바일</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    
+</head>
+    
+<body>
+<!--전체시작-->   
+<div id="wrap">   
+    
+ <!-- panel -->    
+<div id="paneIBg"></div>   
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+        <div class="sidenav1">
+            <a href="sub/aboutme.html" class="leftmenu01"><span>아이콘</span>About me</a>
+            <a href="sub/greeting.html" class="leftmenu02"><span>아이콘</span>Greeting</a>
+            <a href="sub/history.html" class="leftmenu03"><span>아이콘</span>History</a>
+            <a href="sub/skill.html" class="leftmenu04"><span>아이콘</span>Skill&amp;License</a>
+            <a href="sub/portfolio.html" class="leftmenu05"><span>아이콘</span>Portfolio</a>
+            <a href="sub/contact.html" class="leftmenu06"><span>아이콘</span>Contact</a>
+         
+        </div>
+    
+        <div class="text">
+            <p>부산시 수영구 광안동755-16</p>
+            <p>010-7277-5291</p>
+            <p>hjhj5291@naver.com</p>
+        </div>    
+    
+</div>
+    
+<!--헤더시작-->      
+<header id="header">
+
+    <span class="openbtn" onclick="openNav()"><i class="fas fa-align-right"></i></span>    
+
+                <h1>
+                    <a href="index.html">
+                        <span class="icon">로고아이콘</span>
+                        <span>LeeHyeonJeong</span>
+                    </a>
+                </h1>
+
+    </header>
+
+ <!--container-->
+ <div id="container">
+     
+    <!--메인슬라이더시작-->
+    <div class="mainslider">
+
+        <img src="images/M_main_02_02.png">
+        
+         <div class="textbox">
+            <h4>열정과 끈기,책임감이 넘치는</h4>
+            <p>디자이너계의 떠오르는 "샛별"</p>
+            <h1>Lee HyeonJeong입니다.</h1>
+        </div>
+        
+    </div>
+    <!--메인슬라이더끝-->    
+     
+  <!--mainRow1-->
+<div class="mainRow1">    
+    <div class="row1Box">
+        <a href="sub/aboutme.html">
+            <img src="images/m_03.png" alt="이미지1">
+             <div class="row1textbox">    
+            <h3>About me</h3>
+            </div>     
+        </a>
+    </div>
+    
+    <div class="row1Box">
+        <a href="sub/greeting.html">
+            <img src="images/m_05.png" alt="이미지2">
+            <div class="row1textbox">        
+            <h3>Greeting</h3>
+            </div>    
+        </a>
+    </div>
+    
+    <div class="row1Box">
+        <a href="sub/history.html">
+            <img src="images/m_11.png" alt="이미지3">
+            <div class="row1textbox">    
+             <h3>History</h3>
+            </div>
+        </a>
+    </div>
+    
+    <div class="row1Box">
+        <a href="sub/skill.html">
+            <img src="images/m_09.png" alt="이미지4">
+             <div class="row1textbox">    
+             <h3>Skill&amp;License</h3>
+            </div>
+        </a>
+    </div>
+    
+    <div class="row1Box">
+        <a href="sub/portfolio.html">
+            <img src="images/m_16.png" alt="이미지5">
+            <div class="row1textbox">        
+             <h3>Portfolio</h3>
+            </div>
+        </a>
+    </div>
+    
+    <div class="row1Box">
+        <a href="sub/contact.html">
+            <img src="images/m_18.png" alt="이미지6">
+             <div class="row1textbox">        
+             <h3>Contact</h3>
+            </div>
+        </a>
+    </div>
+        
+</div>
+<!--mainRow1-->     
+</div> 
+<!--container--> 
+    
+                <!--footer-->   
+               <footer id="footer">
+            
+                    <!--   footertop     -->
+                    <div class="footertop cf">
+                    <div>  
+                        <a href="https://www.facebook.com/jeongjeong">
+                            <img src="images/f_26.png">
+                            <span>Facebook</span>    
+                        </a>
+                    </div>   
+                    
+                    <div>
+                        <a href="https://www.instagram.com/mylhj5291/">
+                            <img src="images/f_23.png">
+                            <span>Instagram</span>
+                        </a>
+                    </div>    
+                        
+                </div>
+              <!--   footertop     -->
+                   
+            <!-- footerbottom-->
+            <div class="footerbottom">
+                <p>주소 : 부산시 수영구 광안동755-16</p>
+                <p>Tel : 010-7277-5291</p>
+
+                <div class="right">  
+                    <a href="tel:+01072775291">
+                        <img src="images/f_31.png">
+                    </a>    
+                </div>
+                
+            </div>
+            <!-- footerbottom-->
+           
+            </footer>
+            <!--footer-->   
+</div>
+<!--  전체 끝  -->    
+    
+<!--메뉴바 -->
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("paneIBg").style.display = "block"; /*오른쪽메뉴눌렀을때 배경 흐리게 보이게*/
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("paneIBg").style.display = "none"; /*오른쪽메뉴눌렀을때 배경 흐리게 보이게*/
+}   
+    
+</script>
+</body>
+</html>
