@@ -253,9 +253,10 @@ text-align: center;
 
 }
 .textbox p{
-    font-weight: lighter;
-       font-size: 15px;    
-    padding-top: 10px;
+    
+       font-size: 17px;    
+    padding-top: 20px;
+    font-weight: bold;
     
 }
 
