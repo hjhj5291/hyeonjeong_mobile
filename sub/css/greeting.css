@@ -21,7 +21,7 @@ clear: both;
 }
 #wrap{
 width: 100%;    
-    max-width: 360px;
+    max-width: 414px;
     margin: 0 auto;
 }
 
@@ -224,6 +224,7 @@ color: #fff;
 }
 .containertop p{
     font-size: 15px;
+    padding: 20px 0;
 }
 .containerleft{    
 position: relative;
@@ -247,13 +248,15 @@ font-size: 14px;
    position: absolute;
     color: #fff;
     text-align: justify;
- 
+
 }
 .containerright div{
 
 }
 .txt-1{
     font-size: 20px;
+    padding: 10px 0;
+    font-weight: bold;
 }
 .txt-2{}
 .txt-3{
